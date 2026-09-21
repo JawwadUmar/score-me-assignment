@@ -1,0 +1,10 @@
+Group,n,K,Density,Seed,Feasible,Runtime_ms,Penalty,Optimal_Penalty,Violation_Reason,Alpha_Emp
+Small,8,3,0.3,1,True,1,36.60927465851264,28.70571247562719,,1.2753306398367932
+Small,10,4,0.4,2,True,0,30.332648632795127,30.332648632795127,,1.0
+Small,12,4,0.5,3,True,1,69.14849402922303,69.14849402922303,,1.0
+Medium,50,8,0.25,10,False,7,,,No feasible slot remains for task T20,
+Medium,100,10,0.3,11,False,22,,,No feasible slot remains for task T53,
+Medium,150,12,0.35,12,False,51,,,No feasible slot remains for task T83,
+Stress (Base),200,15,0.4,20,False,88,,,No feasible slot remains for task T65,
+Stress (Tight),200,5,0.6,21,False,38,,,No feasible slot remains for task T122,
+Stress (Sparse),200,20,0.1,22,False,60,,,No feasible slot remains for task T6,

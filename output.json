@@ -1,0 +1,6 @@
+{
+  "feasible" : false,
+  "runtime_ms" : 60,
+  "penalty" : null,
+  "violation_reason" : "No feasible slot remains for task T6"
+}

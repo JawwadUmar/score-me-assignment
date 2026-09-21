@@ -104,9 +104,9 @@ public class CradSchedulerTest {
 
         for (int i = 0; i < 4; i++) {
             tasks.put(
-                    String.valueOf(i),
+                    "T" + i,
                     new Task(
-                            String.valueOf(i),
+                            "T" + i,
                             new double[]{1, 1, 1, 1},
                             1,
                             3,

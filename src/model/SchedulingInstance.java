@@ -25,8 +25,8 @@ public final class SchedulingInstance {
         }
 
         for (int[] edge : conflicts) {
-            String a = String.valueOf(edge[0]);
-            String b = String.valueOf(edge[1]);
+            String a = "T" + edge[0];
+            String b = "T" + edge[1];
 
             neighbors.computeIfAbsent(a, x -> new HashSet<>()).add(b);
             neighbors.computeIfAbsent(b, x -> new HashSet<>()).add(a);
